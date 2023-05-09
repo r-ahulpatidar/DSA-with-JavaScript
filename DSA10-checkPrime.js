@@ -5,7 +5,7 @@ function checkPrime(number) {
 
   // check if number is equal to 1
   if (number === 1) {
-    console.log("1 is neither prime nor composite number.");
+    console.log("1 is neither prime nor composite number.");   // display the result
   }
 
   // check if number is greater than 1
@@ -19,15 +19,15 @@ function checkPrime(number) {
     }
 
     if (isPrime) {
-      console.log(`${number} is a prime number`);
+      console.log(`${number} is a prime number`);   // display the result
     } else {
-      console.log(`${number} is a not prime number`);
+      console.log(`${number} is a not prime number`);   // display the result
     }
   }
 
   // check if number is less than 1
   else {
-    console.log("The number is not a prime number.");
+    console.log("The number is not a prime number.");  // display the result
   }
 }
 
