@@ -1,5 +1,6 @@
 // Program to Find LCM
 
+// another method is written in dsa25 plz reat it
 function findLcm(num1, num2) {
   let min = num1 > num2 ? num1 : num2;
 
