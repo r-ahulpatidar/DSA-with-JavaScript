@@ -1,5 +1,6 @@
 // Program to Check Armstrong Number
 
+//Method-1
 function checkArmstrong(number) {
   const numberOfDigits = number.toString().length;
   let sum = 0;
@@ -25,3 +26,24 @@ function checkArmstrong(number) {
 
 checkArmstrong(92727);
 checkArmstrong(153);
+
+//Method-2
+// function armstrongNumber(n) {
+//   //code here
+
+//   const myArr = String(n)
+//     .split("")
+//     .map((num) => Number(num));
+
+//   let j = 0;
+
+//   myArr.forEach((item) => {
+//     j += item ** 3;
+//   });
+
+//   if (j === n) {
+//     return "Yes";
+//   } else {
+//     return "No";
+//   }
+// }
